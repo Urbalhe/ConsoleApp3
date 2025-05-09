@@ -1,10 +1,12 @@
 ﻿namespace ConsoleApp3
 {
-	internal class Program
+	public class Sorkerdes
 	{
-		static void Main(string[] args)
-		{
-			Console.WriteLine("Szia. üdvözöllek a legyen ön is milliomosban. Nyerj 50 milliót. ");
-		}
+		public string Kerdes { get; set; }
+		public List<string> Valaszok { get; set; }
+
+		public string HelyesValasz { get; set; }
+		
+
 	}
 }
